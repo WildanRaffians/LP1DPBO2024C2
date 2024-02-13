@@ -1,23 +1,28 @@
+// Kelas DPR
 public class Dpr{
+    //Atribut
     private String id;
     private String name;
     private String bidang;
     private String partai;
 
+    //constructor
     public Dpr(){
         this.id = "";
         this.name = "";
         this.bidang = "";
         this.partai = "";
     }
-
+    
+    //constructor
     public Dpr(String id, String name, String bidang, String partai){
         this.name = id;
         this.name = name;
         this.name = bidang;
         this.name = partai;
     }
-
+    
+    //Setter dan Getter
     public String getId(){
         return this.id;
     }
