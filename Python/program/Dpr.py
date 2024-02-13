@@ -1,16 +1,19 @@
+# Kelas DPR
 class Dpr:
+    # Atribut
     __id = ""
     __name = ""
     __bidang = ""
     __partai = ""
 
+    #constructor
     def __init__(self, id = "", name = "", bidang = "", partai = ""):
         self.__name = name
         self.__id = id
         self.__bidang = bidang
         self.__partai = partai
 
-    
+    #getter dan setter
     def get_name(self):
         return self.__name
 
