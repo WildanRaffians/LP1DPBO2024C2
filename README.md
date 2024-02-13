@@ -12,4 +12,6 @@ profil (khusus bahasa PHP).
 <h3>Desain Program</h3>
 Program terdiri dari 2 file, 1 untuk file class dan 1 untuk file main. File class berupa class Dpr yang berisi data / atribut yang dimiliki anggota DPR, yaitu Id, nama, bidang dan partai. Pada class ini semua atribut dibuat private agar tidak dapat diakses dari luar class. Pada class Dpr juga terdapat method setter dan getter untuk setiap atribut. Semua method tersebut dibuat public agar dapat diakses dari luar class.
 
-Pada file main terdapat fungsi utama yang dimana user dapat memasukkan perintah untuk melihat, menambah, mengubah, dan menghapus data. Dan fitur melihat, menambah, mengubah dan menghapus data tersebut pun terdapat pada main.
+Pada file main (Java, Python, C++) terdapat fungsi utama yang dimana user dapat memasukkan perintah untuk melihat, menambah, mengubah, dan menghapus data. Dan fitur melihat, menambah, mengubah dan menghapus data tersebut pun terdapat pada main.
+
+<h3>Demonstrasi Program</h3>
